@@ -194,6 +194,28 @@
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
+
+.question-image-card {
+    width: 300px;
+    height: 220px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#question-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
 .answer-card{
 
     width:50%;
